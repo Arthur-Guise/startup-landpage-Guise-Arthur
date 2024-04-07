@@ -1,15 +1,15 @@
-//* Reset CSS */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Styles généraux */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #f9f9f9; /* Couleur de fond légèrement grise */
+  background-color: #f9f9f9; 
 }
 
 .container {
@@ -22,7 +22,7 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px 0;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sous l'en-tête */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
 }
 
 header h1 {
@@ -41,11 +41,11 @@ nav ul li {
 nav ul li a {
   color: #fff;
   text-decoration: none;
-  transition: color 0.3s ease; /* Transition pour le changement de couleur au survol */
+  transition: color 0.3s ease; 
 }
 
 nav ul li a:hover {
-  color: #ffc107; /* Couleur jaune au survol */
+  color: #ffc107; 
 }
 
 .inscription {
@@ -66,28 +66,28 @@ nav ul li a:hover {
 
 .hero h2 {
   margin-bottom: 40px;
-  font-size: 40px; /* Taille de police plus grande */
-  color: #ffc107; /* Couleur jaune pour le titre */
+  font-size: 40px; 
+  color: #ffc107; 
 }
 
 .hero p {
-  font-size: 24px; /* Taille de police légèrement plus grande */
-  opacity: 0.9; /* Opacité légèrement réduite */
+  font-size: 24px; 
+  opacity: 0.9; 
 }
 
 .btn-blue {
   background-color: #007bff;
   color: #fff;
   padding: 15px 30px;
-  border: 2px solid #007bff; /* Bordure */
+  border: 2px solid #007bff; 
   border-radius: 4px;
   text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour le changement de couleur au survol */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .btn-blue:hover {
-  background-color: #0056b3; /* Couleur de fond au survol */
-  color: #fff; /* Couleur du texte au survol */
+  background-color: #0056b3; 
+  color: #fff; 
 }
 
 footer {
@@ -95,14 +95,14 @@ footer {
   color: #fff;
   text-align: center;
   padding: 40px 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Ombre au-dessus du pied de page */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); 
 }
 
 blockquote {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   margin-bottom: 20px;
 }
 
@@ -122,7 +122,7 @@ blockquote footer {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   margin-bottom: 20px;
 }
 
@@ -141,7 +141,7 @@ blockquote footer {
 .poesie {
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
   margin-bottom: 20px;
 }
 
