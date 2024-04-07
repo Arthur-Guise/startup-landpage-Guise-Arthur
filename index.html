@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accueil - Site Arthur</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Bonjour !</h1>
+      <nav>
+        <ul>
+          <li><a href="trou.png">N'appuyer pas ici</a></li>
+          <li><a href="#" onclick="scrollToPoem()">Poésie</a></li>
+          <li><a href="https://bontoni.com/" target="_blank">Chaussures</a></li>
+          <li><a href="https://www.linkedin.com/in/arthurguise/" target="_blank">Linkedin</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="inscription">
+    <div class="container">
+      <h2>In Vino Veritas</h2>
+    </div>
+  </section>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Bienvenue sur le site d'Arthur Guise</h2>
+      <a href="https://arthur-guise.github.io/my-profile/" class="btn-blue">Mon profil</a>
+    </div>
+  </section>
+
+  <section id="poesie" class="poesie hidden">
+    <div class="container">
+      <blockquote>
+        <p>La Haine est le tonneau des pâles Danaïdes ;<br>
+        La Vengeance éperdue aux bras rouges et forts<br>
+        A beau précipiter dans ses ténèbres vides<br>
+        De grands seaux pleins du sang et des larmes des morts,<br><br>
+
+        Le Démon fait des trous secrets à ces abîmes,<br>
+        Par où fuiraient mille ans de sueurs et d’efforts,<br>
+        Quand même elle saurait ranimer ses victimes,<br>
+        Et pour les pressurer ressusciter leurs corps.<br><br>
+
+        La Haine est un ivrogne au fond d’une taverne,<br>
+        Qui sent toujours la soif naître de la liqueur<br>
+        Et se multiplier comme l’hydre de Lerne.<br><br>
+
+        - Mais les buveurs heureux connaissent leur vainqueur,<br>
+        Et la Haine est vouée à ce sort lamentable<br>
+        De ne pouvoir jamais s’endormir sous la table.</p>
+        <footer>Charles Baudelaire</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Site d'Arthur Guise.</p>
+    </div>
+  </footer>
+
+  <script>
+    function scrollToPoem() {
+      var poemSection = document.getElementById("poesie");
+      poemSection.classList.remove("hidden");
+      poemSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>

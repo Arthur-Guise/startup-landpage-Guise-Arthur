@@ -1,0 +1,155 @@
+//* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9; /* Couleur de fond légèrement grise */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Ombre sous l'en-tête */
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 40px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transition pour le changement de couleur au survol */
+}
+
+nav ul li a:hover {
+  color: #ffc107; /* Couleur jaune au survol */
+}
+
+.inscription {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('hero.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero h2 {
+  margin-bottom: 40px;
+  font-size: 40px; /* Taille de police plus grande */
+  color: #ffc107; /* Couleur jaune pour le titre */
+}
+
+.hero p {
+  font-size: 24px; /* Taille de police légèrement plus grande */
+  opacity: 0.9; /* Opacité légèrement réduite */
+}
+
+.btn-blue {
+  background-color: #007bff;
+  color: #fff;
+  padding: 15px 30px;
+  border: 2px solid #007bff; /* Bordure */
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transition pour le changement de couleur au survol */
+}
+
+.btn-blue:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+  color: #fff; /* Couleur du texte au survol */
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Ombre au-dessus du pied de page */
+}
+
+blockquote {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  margin-bottom: 20px;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote footer {
+  margin-top: 10px;
+  font-style: normal;
+}
+.hidden {
+  display: none;
+}
+
+.poesie {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  margin-bottom: 20px;
+}
+
+.poesie p {
+  font-style: italic;
+}
+
+.poesie footer {
+  margin-top: 10px;
+  font-style: normal;
+}
+.hidden {
+  display: none;
+}
+
+.poesie {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Ombre sous le bloc de citation */
+  margin-bottom: 20px;
+}
+
+.poesie p {
+  font-style: italic;
+}
+
+.poesie footer {
+  margin-top: 10px;
+  font-style: normal;
+}
